@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<root>
+    
+    <devicevendordef>
+        <vendorname>APPLE</vendorname>
+        <vendorid>0x05ac</vendorid>
+    </devicevendordef>
+    
+    <deviceproductdef>
+        <productname>INTERNAL_KEYBOARD</productname>
+        <productid>0x0259</productid>
+    </deviceproductdef>
+    
+    <devicevendordef>
+        <vendorname>USB_GAMING</vendorname>
+        <vendorid>0x04d9</vendorid>
+    </devicevendordef>
+    
+    <deviceproductdef>
+        <productname>MECHANICAL_KEYBOARD</productname>
+        <productid>0x0024</productid>
+    </deviceproductdef>
+    
+    <item>
+        <name>[ViewSonic] Switch win and alt</name>
+        <identifier>private.deviceproductdef4</identifier>
+        <device_only>DeviceVendor::USB_GAMING,DeviceProduct::MECHANICAL_KEYBOARD</device_only>
+        <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::COMMAND_L</autogen>
+    </item>
+    
+</root>
